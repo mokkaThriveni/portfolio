@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">THRIVENI</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">skills</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            
+
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Thri</span>Veni</h1>
+            <p>
+                I am a Python Full Stack Developer with a passion for crafting 
+                responsive web applications and clean user
+                 experiences. I’m also exploring UI/UX design to build intuitive and visually appealing interfaces using HTML, CSS, JavaScript, and design tools.
+            </p>
+           
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/mokkaThriveni"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="images/pf1.png" download class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Python Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>ui/ux Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxs-alt'></i>
+                    <h3>Frontend Developer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <!-- <img src="images/portfolio.png" alt=""> -->
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/animeimage.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                I specialize in Python-based full-stack development, blending functionality with UI/UX design for modern web experiences.
+            </p>
+            <p>
+                I focus on delivering solutions that are not only functional but also engaging and visually appealing.
+            </p>
+             
+            <a href="#" class="btn">Read More</a>
+            
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2023</div>
+                            <h3>Priyadarshini Institute of Technology and Management</h3>
+                            <p>B.Tech in Electronics and Communication Engineering (ECE). Focused on core electronics, communication systems, and also gained exposure to full stack development and UI/UX design.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2019</div>
+                            <h3>P.S.N Junior College</h3>
+                            <p>Completed Intermediate with a focus on MPC (Maths, Physics, Chemistry). Built a strong foundation for engineering studies.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2016 - 2017</div>
+                            <h3>ZPH High School, Balijipeta</h3>
+                            <p>Completed 10th grade with distinction. Developed discipline and interest in technical subjects during school years.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Certifications<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023</div>
+                            <h3>Python Full Stack Development</h3>
+                            <p>Completed a comprehensive course covering frontend (HTML, CSS, JavaScript) and backend (Python, Django, SQL) technologies for building full-stack web applications from NEXTWAVE</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2019</div>
+                            <h3>UI/UX Design Fundamentals</h3>
+                            <p>Learned the principles of user-centered design, wireframing, prototyping, and designing intuitive interfaces using tools like Figma and Adobe XD from TECH MAHINDHRA SMART ACADAMY VISHAKAPATNAM</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Full Stack Developer - Full Time</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Blanditiis dolorem harum
+                                dolorum debitis. Magni, iste! Perferendis
+                                laborum reprehenderit dolorum totam.</p>
+                        </div>
+                    </div> -->
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="skills-row">
+        <!-- Coding Skills -->
+        <div class="skills-column">
+            <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>HTML <span>90%</span></h3>
+                        <div class="bar"><span data-width="90%"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>CSS <span>80%</span></h3>
+                        <div class="bar"><span data-width="80%"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>JavaScript <span>65%</span></h3>
+                        <div class="bar"><span data-width="65%"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>React.js <span>75%</span></h3>
+                        <div class="bar"><span data-width="75%"></span></div>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="skills-column">
+            <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Web Design <span>95%</span></h3>
+                        <div class="bar"><span data-width="95%"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Web Development <span>67%</span></h3>
+                        <div class="bar"><span data-width="67%"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Canva Design <span>85%</span></h3>
+                        <div class="bar"><span data-width="85%"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Instagram Marketing <span>60%</span></h3>
+                        <div class="bar"><span data-width="60%"></span></div>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:6;"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Python Development</h3>
+                <p>Building efficient and scalable Python applications tailored to your business needs, including automation and data processing.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-globe'></i>
+                <h3>Web Development</h3>
+                <p>Designing and developing responsive and user-friendly websites using HTML, CSS, and JavaScript to create engaging digital experiences.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-cog'></i>
+                <h3>Data Visualization & Analytics</h3>
+                <p>Implementing automation tools like Alteryx and Xceptor to streamline workflows and improve operational efficiency.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-pen'></i>
+                <h3>UI/UX Design Support</h3>
+                <p>Helping create user-centered designs and interfaces that enhance usability and improve user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <!-- Filter Buttons -->
+    <div class="portfolio-filter" style="text-align: center; margin-bottom: 2rem;">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="html">HTML</button>
+        <button class="filter-btn" data-filter="js">JS</button>
+        <button class="filter-btn" data-filter="js">Boostrap</button>
+        <button class="filter-btn" data-filter="js">wordpress</button>
+        <button class="filter-btn" data-filter="react">REact</button>
+        <button class="filter-btn" data-filter="react">Illustrator</button>
+        <button class="filter-btn" data-filter="react">Photoshop</button>
+        <button class="filter-btn" data-filter="react">Figma</button>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box" data-category="html">
+            <img src="images/travelpage.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Portfolio</h4>
+                <p>HTML project portfolio website</p>
+                <a href="https://mokkathriveni.github.io/travel-page/text%20(1).html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box" data-category="js">
+            <img src="images/calculator.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>calculator</h4>
+                <p>HTML + CSS Plant selling website</p>
+                <a href="https://mokkathriveni.github.io/calculators/calculater-123/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+         <div class="portfolio-box" data-category="html">
+            <img src="images/plants.png" alt="">
+            <div class="portfolio-layer">
+                <h4>plants</h4>
+                <p>HTML + CSS Plant selling website</p>
+                <a href="https://mokkathriveni.github.io/plants/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box" data-category="js">
+            <img src="images/restaurent.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Restaurant</h4>
+                <p>Restaurant menu with JavaScript filters</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        
+
+        <div class="portfolio-box" data-category="js">
+            <img src="images/animeimage.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>animeImage</h4>
+                <p>Static portfolio template using HTML & CSS</p>
+                <a href="https://mokkathriveni.github.io/animate-pictures/indx.html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box" data-category="js">
+            <img src="images/restaurent.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Restaurant</h4>
+                <p>Restaurant menu with JavaScript filters</p>
+                <a href="https://mokkathriveni.github.io/restaurant/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box" data-category="js">
+            <img src="images/ecom.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Ecom</h4>
+                <p>E-commerce product cart with JS</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading"><span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="test1.jpg" alt="">
+                        <h3>Dhanusri</h3>
+                        <p>Thriveni’s Python expertise really streamlined our automation processes, saving us countless hours. She is detail-oriented and communicates clearly, making collaboration a breeze.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="test-2.jpg" alt="">
+                        <h3>Prasad</h3>
+                        <p>Her web development skills are impressive — the websites she created for us are both visually appealing and highly functional across devices. Mokka is a great problem solver and a quick learner.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="test-3.jpg" alt="">
+                        <h3>Arrif</h3>
+                        <p>Thriveni’s knowledge in client onboarding and domain-specific processes helped our team reduce errors significantly. She is professional, reliable, and always eager to learn new things.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+
+  <div class="contact-wrapper">
+    
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+
+    <!-- Map iframe next to form -->
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.093794897266!2d83.5188067!3d18.61485055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3b81453e8fdfe9%3A0x9e755097ec476a6a!2sVengapuram%2C%20Andhra%20Pradesh%20535557!5e0!3m2!1sen!2sin!4v1747463984022!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        height="420" 
+        style="border:10;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>
